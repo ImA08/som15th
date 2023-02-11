@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aboreto&display=swap" rel="stylesheet">
+    
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+    <!-- my css -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    
+    <!-- jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" integrity="sha512-UJfAaOlIRtdR+0P6C3KUoTDAxVTuy3lnSXLyLKlHYJlcSU8Juge/mjeaxDNMlw9LgeIotgz5FP8eUQPhX1q10A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <link rel="icon" href="img/logo no bg.png" type="image/icon type">
+    <title>Sumatera Ophthalmologist Meeting 15th</title>
+</head>
+<body>
+    
+    <!-- navbar -->
+    
+
+    <div class="navbar-fixed">
+        <nav class="cyan lighten-5">
+            <div class="container">
+                <div class="nav-wrapper">
+            <a href="index.html"><img class="brand-logo img-responsive" src="img/logo_som2.png"></a>
+            <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">                            
+              <li><a href="#speakers">Speakers</a></li>
+              <li><a class="dropdown-trigger" href="#" data-target="dropdown1">Events<i class="material-icons right">arrow_drop_down</i></a></li>
+              <li><a href="https://bit.ly/som15sumbar" target="_blank">Registration</a></li>
+              <li><a href="#contact">Contact</a></li>                  
+            </ul>
+                </div>
+            </div>
+        </nav>
+      </div>
+
+      
+
+      <ul id="dropdown1" class="dropdown-content">        
+        <li><a class="black-text" href="family_gathering.html">Family Gathering</a></li>        
+      </ul>
+
+
+      <!-- sidenav -->
+      <ul class="sidenav" id="mobile-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#program">Program</a></li>
+        <li><a href="#speakers">Speakers</a></li>
+        <li><a class="dropdown-trigger" href="#" data-target="dropdown2">Events<i class="material-icons right">arrow_drop_down</i></a></li>
+        <li><a href="https://bit.ly/som15sumbar" target="_blank">Registration</a></li>
+          
+        
+        <li><a href="#contact">Contacts</a></li>                  
+      </ul>
+      <ul id="dropdown2" class="dropdown-content">
+        <li><a href="family_gathering.html">Family Gathering</a></li>  
+      </ul>
+
+
+
+      <div class="filler">
+
+      </div>
+
+
+
+      
+
+   
+    
+    <!-- contact us -->
+    
+    <footer class="page-footer grey darken-3">
+        <div class="container">
+          <div class="row">
+            <div class="col l6 s12">
+              <h5 class="white-text">Contact</h5>
+              <p class="grey-text text-lighten-4">+62 813 7845 5402</p>
+              
+            </div>
+            <div class="col l4 offset-l2 s12">
+              <h5 class="white-text">Connect</h5>
+              <div class="socials">
+              <ul>
+                <li><a class="white-text" href="https://www.facebook.com/perdamisumbar2020" target="_blank"> <i class="fab fa-facebook-f"></i>    Facebook</a></li>                    
+                <li><a class="white-text" href="https://www.instagram.com/perdami.sumbar1/" target="_blank"><i class="fab fa-instagram"></i>  Instagram</a></li>
+                <li><a class="white-text" href="mailto:perdamisumbar2023@gmail.com"> <i class="fas fa-envelope" target="_blank"></i> Email</a></li>
+              </ul>
+            </div>
+            </div>
+            
+          </div>
+        </div>
+        <div class="footer-copyright grey darken-4">
+          <div class="container center-align">
+          &COPY; 2023 PERDAMI SUMBAR | <a class="white-text" href="mailto:perdamisumbar2023@gmail.com"> perdamisumbar2023@gmail.com</a>
+          </div>
+        </div>
+      </footer>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+      <!--JavaScript at end of body for optimized loading-->
+
+      
+      </script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+
+      
+
+      <script>
+
+        const sideNav = document.querySelectorAll('.sidenav');
+        M.Sidenav.init(sideNav);
+
+        const slider = document.querySelectorAll('.slider');
+        M.Slider.init(slider,{
+            indicators: false,
+            height: 500,            
+            transition: 80,
+            interval: 4000
+        });
+
+        
+
+        
+        
+        
+
+        
+
+        // $(document).ready(function(){
+        // $('.carousel').carousel();
+        // });
+
+        document.addEventListener('DOMContentLoaded', function() {
+            var elems = document.querySelectorAll('.carousel');
+            var instances = M.Carousel.init(elems,{ 
+                               
+                indicators:true,
+                height: 450
+
+            }
+            );
+        });
+
+  
+
+        const parallax =document.querySelectorAll('.parallax');
+        M.Parallax.init(parallax);
+
+        const materialbox =document.querySelectorAll('.materialboxed');
+        M.Materialbox.init(materialbox);
+
+        const scroll =document.querySelectorAll('.scrollspy');
+        M.ScrollSpy.init(scroll);
+
+        const dropdown =document.querySelectorAll('.dropdown-trigger');
+        M.Dropdown.init(dropdown,{
+            coverTrigger : false,
+            constrainWidth : true
+        });
+
+        
+        
+        </script>
+
+
+
+
+    
+</body>
+</html>

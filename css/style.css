@@ -5,6 +5,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,600&display=swap');
 
 
+
+
+body {
+    background-color: #e0f2f;
+}
+
 /* .navbar-fixed .brand-logo img {
     left: 0;
     position: absolute;

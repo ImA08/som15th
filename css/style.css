@@ -5,13 +5,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,600&display=swap');
 
 
-.brand-logo img {
+/* .navbar-fixed .brand-logo img {
     left: 0;
     position: absolute;
     height: fit-content;
     width: 80px;
 
-}
+} */
 .sponsor h3 {
     text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
 

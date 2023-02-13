@@ -45,18 +45,17 @@
     
 
     <div class="navbar-fixed">
-        <nav class="blue accent-4">
+        <nav class="amber lighten-3">
             <div class="container">
                 <div class="nav-wrapper">
-            <!-- <a href="som15.html" class="brand-logo"><img src="img/edited_logo_perdami575.png"></a> -->
+            <a href="index.html"><img class="brand-logo img-responsive" src="img/logo_som2.png"></a>
             <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
             <ul class="right hide-on-med-and-down">
-              <li><a href="index.html">Home</a></li>              
-              <li><a href="#abstract">Abstract</a></li>              
-              <li><a href="#speakers">Speakers</a></li>
-              <li><a class="dropdown-trigger" href="#" data-target="dropdown1">Events<i class="material-icons right">arrow_drop_down</i></a></li>
-              <li><a href="https://bit.ly/som15sumbar" target="_blank">Registration</a></li>
-              <li><a href="index.html">Contact</a></li>                  
+                <li><a class="teal-text text-darken-2" href="schedule.html">Schedule</a></li>                            
+              <li><a class="teal-text text-darken-2" href="#speakers">Speakers</a></li>
+              <li><a class="dropdown-trigger teal-text text-darken-2" href="#" data-target="dropdown1">Events<i class="material-icons right">arrow_drop_down</i></a></li>
+              <li><a class="teal-text text-darken-2" href="https://bit.ly/som15sumbar" target="_blank">Registration</a></li>
+              <li><a class="teal-text text-darken-2" href="#contact">Contact</a></li>                  
             </ul>
                 </div>
             </div>
@@ -72,8 +71,7 @@
 
       <!-- sidenav -->
       <ul class="sidenav" id="mobile-nav">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="#program">Program</a></li>
+        <li><a href="index.html">Home</a></li>        
         <li><a href="#speakers">Speakers</a></li>
         <li><a class="dropdown-trigger" href="#" data-target="dropdown2">Events<i class="material-icons right">arrow_drop_down</i></a></li>
         <li><a href="https://bit.ly/som15sumbar" target="_blank">Registration</a></li>
@@ -130,6 +128,55 @@
                 </div>            
                 
         </section>
+
+        <!-- Container for the cards -->
+        <div class="container">
+            <!-- Card for Calisthenics -->
+            <div class="card">
+              <div class="card-image <?php echo rand(0,1) ? 'left-align' : '' ?>">
+                <img src="https://picsum.photos/200/300" alt="Calisthenics">
+              </div>
+              <div class="card-content">
+                <span class="card-title">Calisthenics</span>
+                <p>Join us for a morning workout with calisthenics! Start your day off right and get your body moving.</p>
+              </div>
+            </div>
+      
+            <!-- Card for Fun Games -->
+            <div class="card">
+              <div class="card-image <?php echo rand(0,1) ? 'left-align' : '' ?>">
+                <img src="https://picsum.photos/200/300" alt="Fun Games">
+              </div>
+              <div class="card-content">
+                <span class="card-title">Fun Games</span>
+                <p>Get ready for some friendly competition with fun games between groups! See who comes out on top.</p>
+              </div>
+            </div>
+  
+        <!-- Card for Idol Performance -->
+        <div class="card">
+          <div class="card-content">
+            <span class="card-title">Idol Performance</span>
+            <p>Don't miss out on the chance to see your favorite idol perform live! Get ready for a show you won't forget.</p>
+          </div>
+        </div>
+  
+        <!-- Card for Live Music -->
+        <div class="card">
+          <div class="card-content">
+            <span class="card-title">Live Music</span>
+            <p>Enjoy the sounds of live music as you relax and take in the atmosphere. Let the music fill your soul.</p>
+          </div>
+        </div>
+  
+        <!-- Card for Food Stands -->
+        <div class="card">
+          <div class="card-content">
+            <span class="card-title">Food Stands</span>
+            <p>Satisfy your hunger with delicious food from our food stands! With a variety of options, there's something for everyone.</p>
+          </div>
+        </div>
+      </div>
     
 
         
@@ -140,7 +187,7 @@
 
     
     
-        <div class="location">
+        <!-- <div class="location">
             <div class="map-wrapper">
             <div class="row">
                 <div class="col m4 s12">
@@ -162,7 +209,7 @@
                 </div>                
         </div>
         </div>
-    </div>
+    </div> -->
 
     <section id="contact" class="contact grey lighten-3 scrollspy">
         <div class="container">

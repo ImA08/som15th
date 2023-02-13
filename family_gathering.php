@@ -224,7 +224,7 @@
                     </div>
                     <div class="card-content">
                         <span class="card-title">Cycling Adventure</span>
-                        <p>Get your heart pumping with a scenic cycling tour. Join us for an invigorating ride through the beautiful countryside and experience the thrill of exploring new terrain. Whether you're a seasoned cyclist or a beginner, there's a route for everyone. Don't miss out on this opportunity to get active and experience the great outdoors!</p>
+                        <p>Get active with a scenic cycling tour. Join us for a heart-pumping ride through the countryside. Suitable for all levels. Don't miss out on this outdoor adventure!</p>
                     </div>
                 </div>
             </div>
@@ -363,6 +363,7 @@
 
 
     </script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
 
 
@@ -414,6 +415,11 @@
         M.Dropdown.init(dropdown, {
             coverTrigger: false,
             constrainWidth: true
+        });
+
+
+        $(document).ready(function() {
+            $('.card').addClass('show');
         });
     </script>
 

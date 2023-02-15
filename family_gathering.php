@@ -23,6 +23,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" integrity="sha512-UJfAaOlIRtdR+0P6C3KUoTDAxVTuy3lnSXLyLKlHYJlcSU8Juge/mjeaxDNMlw9LgeIotgz5FP8eUQPhX1q10A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
@@ -74,7 +75,7 @@
     <!-- sidenav -->
     <ul class="sidenav" id="mobile-nav">
         <li><a href="index.html">Home</a></li>
-        <li><a href="#speakers">Speakers</a></li>
+        <!-- <li><a href="#speakers">Speakers</a></li> -->
         <li><a class="dropdown-trigger" href="#" data-target="dropdown2">Events<i class="material-icons right">arrow_drop_down</i></a></li>
         <li><a href="https://bit.ly/som15sumbar" target="_blank">Registration</a></li>
 
@@ -83,6 +84,19 @@
     </ul>
     <ul id="dropdown2" class="dropdown-content">
         <li><a href="family_gathering.html">Family Gathering</a></li>
+    </ul>
+
+    <ul class="sidenav" id="mobile-nav">
+        <li><a class="teal-text text-darken-2" href="index.html">Home</a></li>
+        <li><a class="teal-text text-darken-2" href="schedule.html">Schedule</a></li>
+        <!-- <li><a class="teal-text text-darken-2" href="#speakers">Speakers</a></li> -->
+        <li><a class="dropdown-trigger teal-text text-darken-2" href="#" data-target="dropdown2">Events<i class="material-icons right">arrow_drop_down</i></a></li>
+        <li><a class="teal-text text-darken-2" href="https://bit.ly/som15sumbar" target="_blank">Registration</a></li>
+
+        <li><a class="teal-text text-darken-2" href="#contact">Contacts</a></li>
+    </ul>
+    <ul id="dropdown2" class="dropdown-content">
+        <li><a class="teal-text text-darken-2" href="family_gathering.html">Family Gathering</a></li>
     </ul>
 
 
